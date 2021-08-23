@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+</head>
+<body>
+    <h1>this is home page</h1>
+    <h1>my name is {{data}}</h1>
+    <a href="{% url 'login' data1='sai venugopal' %}"> login </a>
+    <br>
+    <a href="{% url 'reg:register'%}"> register </a>
+    <br>
+    <a href="{% url 'reg:index' input='saivenu' %}"> index </a>
+</body>
+</html>
